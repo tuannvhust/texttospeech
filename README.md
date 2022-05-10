@@ -2,6 +2,7 @@
 0. Bước 2 : Install espeak
 ```sh
 sudo apt-install espeak
+```
 
 0. Bước 3 : Tạo 1 folder data
 0. Bước 4 : Download dataset : LJ Speech và giải nén trong folder : data
