@@ -5,7 +5,7 @@
 0. Python >= 3.6
 0. Clone this repository
 ## Các bước training
-1.Cài đặt các thư viện theo đúng version trong file [requirements.txt](requirements.txt)
+1.Cài đặt các thư viện theo đúng version trong file [requirements.txt](requirements.txt)\n
 2. install espeak : `sudo apt-get install espeak`
 3. Tạo 1 folder "data"
 4. Download datasets
