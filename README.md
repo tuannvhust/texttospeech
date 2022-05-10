@@ -5,7 +5,7 @@ Bước 2 : Install espeak
 sudo apt-install espeak
 ```
 
-Bước 3 : Tạo 1 folder data
+Bước 3 : Tạo 1 folder :data
 
 Bước 4 : Download dataset : LJ Speech và giải nén trong folder : data
 
@@ -21,7 +21,8 @@ python setup.py build_ext --inplace
 Bước 7 : Tạo 1 folder monotonic_align trong folder monotonic_align
 
 Bước 8 : copy file: core.cpython-37m-x86_64-linux-gnu.so trong đường dẫn Desktop/tts/vits-main/monotonic_align/build/lib.linux-x86_64-3.7/monotonic_align sang đường dẫn monotonic_align/monotonic_align
-0. Bước 9 : 
+
+Bước 9 : 
 ```sh
 cd ..
 ```
