@@ -10,11 +10,16 @@
 2. install espeak : 
 ```sh
 `sudo apt-get install espeak`
-4. Tạo 1 folder "data"
-5. Download datasets
-    4.1. Download and extract the LJ Speech dataset in folder : "data", then rename or create a link to the dataset folder: `ln -s data/LJSpeech-1.1/wavs DUMMY1`
-    4.1. For mult-speaker setting, download and extract the VCTK dataset, and downsample wav files to 22050 Hz. Then rename or create a link to the dataset folder: `ln -s /path/to/VCTK-Corpus/downsampled_wavs DUMMY2`
-6. Build Monotonic Alignment Search (bắt buộc) and run preprocessing if you use your own datasets.
+```
+
+3. Tạo 1 folder "data"
+4. Download datasets
+    4.1. Download and extract the LJ Speech dataset in folder : "data", then rename or create a link to the dataset folder: 
+    ```sh
+    `ln -s data/LJSpeech-1.1/wavs DUMMY1`
+    ```
+    6.1. For mult-speaker setting, download and extract the VCTK dataset, and downsample wav files to 22050 Hz. Then rename or create a link to the dataset folder: `ln -s /path/to/VCTK-Corpus/downsampled_wavs DUMMY2`
+7. Build Monotonic Alignment Search (bắt buộc) and run preprocessing if you use your own datasets.
 ```sh
 # Cython-version Monotonoic Alignment Search
 5.1"cd monotonic_align"
